@@ -1,0 +1,393 @@
+GET: OK CFG baud=115200 data_bits=8 parity=none stop_bits=1
+STATS: OK STATS rx_host=75 tx_host=62953 rx_target=62953 tx_target=75 host_dropped=0 target_dropped=0
+SET: OK CFG baud=115200 data_bits=8 parity=none stop_bits=1
+EXIT tail: OK BYE\x0d\x0a
+armed: captures/experiments/bootloader-attempt-002/mboot-115200.log (spam 300s, total 600s)
+[T+   4.36] \x0d\x0a ######CHAPP_GetTDTStatus#####
+[T+   4.37] #1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1Info####1530 \x0d\x0a
+[T+   4.42] \x0d\x0a ######CXCA_CMD_GetMyAccountInfo#####4066 \x0d\x0a
+... T+5s spam=on
+... T+10s spam=on
+[T+  14.67] \x0d\x0a ######CHAPP_GetTDTStatus#####
+[T+  14.68] #1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1Info####1530 \x0d\x0a
+[T+  14.73] \x0d\x0a ######CXCA_CMD_GetMyAccountInfo#####4066 \x0d\x0a
+... T+15s spam=on
+... T+20s spam=on
+[T+  24.98] \x0d\x0a ######CHAPP_GetTDTStatus#####
+[T+  24.99] #1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1Info####1530 \x0d\x0a
+... T+25s spam=on
+[T+  25.04] \x0d\x0a ######CXCA_CMD_GetMyAccountInfo#####4066 \x0d\x0a
+[T+  26.30] \x0d\x0a chapp_qrencodeData code with = 45\x0d\x0a\x0d\x0a\x0d <<<chapp_qrencodeData>>>  x=
+[T+  26.31] 848,  y=273 ,w=94,h=94 \x0d\x0a\x0d
+... T+30s spam=on
+... T+35s spam=on
+[T+  35.29] \x0d\x0a ######CHAPP_GetTDTStatus######1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1Info####1530 \x0d\x0a
+[T+  35.34] \x0d\x0a ######CXCA_CMD_GetMyAccountInfo#####4066 \x0d\x0a
+... T+40s spam=on
+... T+45s spam=on
+[T+  45.60] \x0d\x0a ######CHAPP_GetTDTStatus######1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1
+[T+  45.61] Info####1530 \x0d\x0a
+[T+  45.65] \x0d\x0a ######CXCA_CMD_GetMyAccountIn
+[T+  45.66] fo#####4066 \x0d\x0a
+... T+50s spam=on
+... T+55s spam=on
+[T+  55.92] \x0d\x0a ######CHAPP_GetTDTStatus######1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1Info####1530 \x0d\x0a
+[T+  55.97] \x0d\x0a ######CXCA_CMD_GetMyAccountInfo#####4066 \x0d\x0a
+... T+60s spam=on
+... T+65s spam=on
+[T+  66.72] \x0d\x0a CHAPP_DBASE_WriteFlashData-->
+[T+  66.73] 1 \x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --
+[T+  66.74] > \x1b[1;34mopen Offset : 7c0000 Len : c34\x0d\x0a\x1b[m\x0d\x0a
+[T+  67.20] CHDRV_FLASH_DirectWrite : #541 -
+[T+  67.21] -> 2 --> \x1b[1;34mDirectWrite StartAddr : 7c0c34 Length : c34\x0d\x0a\x1b[m\x0d\x0a>>OK [CHMID_NVM_FlashDirectWrite]<TryTim
+[T+  67.22] e=5> Off[0x7c0000]\x0d\x0a\x0d\x0a CHAPP_DBASE_WriteFlashData-->2 \x0d\x0a
+... T+70s spam=on
+[T+  70.38] \x0d\x0a 1111p_BoxInfo->u32_PvrDuringTime = 0 \x0d\x0a\x0d\x0a **********2331  CHAPP_USIF_ControlStandby()\x0d\x0a[DBASE
+[T+  70.39] ]>>>>Start to Storage the Back Up Box Info\x0d\x0a\x0d\x0a CHAPP_DBASE_WriteFlashData-->1 \x0d\x0aCHDRV_FLASH_Open
+[T+  70.40]  : #307 --> 2 --> \x1b[1;34mopen Offset : 7d0000 Len : c34\x0d\x0a\x1b[m\x0d\x0a
+[T+  70.82] CHDRV_FLASH_DirectWrite : #541 --> 2 --> \x1b[1;34mDirectWrite StartAddr : 7d0c34 Length : c34\x0d\x0a\x1b[m\x0d\x0a>>OK [CHMID_NVM_FlashDirectWri
+[T+  70.83] te]<TryTime=5> Off[0x7d0000]\x0d\x0a\x0d\x0a CHAPP_DBASE_WriteFlashData-->2 \x0d\x0a\x0d\x0a **********2333  CHAPP_USIF_
+[T+  70.84] ControlStandby()\x0d\x0a
+[T+  70.95] CHDRV_DSCRAM_Disable[#1970]: \x1b[1;34mdisconnect PID = 0x205, index = 0 ,mi_handle = 0x3c000000\x0d\x0a\x1b[mCHDRV_DSCRAM_Disable[#1996]: \x1b
+[T+  70.96] [1;34mDescrambler = 0x808477c0 ,pid = 0x1fff,disable finished!\x0d\x0a\x1b[mCHDRV_DSCRAM_FreeChannel[#829]: \x1b[1;34mDescram free: index = 
+[T+  70.97] 0,handle = 0x808477c0,pid = 0x205.\x0d\x0a\x1b[mCHDRV_DSCRAM_Disable[#1970]: \x1b[1;34mdisconnect PID = 0x29
+[T+  70.98] 0, index = 1 ,mi_handle = 0x3c000001\x0d\x0a\x1b[mCHDRV_DSCRAM_Disable[#1996]: \x1b[1;34mDescrambler = 0x808477ec ,pid = 0x1fff,disable fini
+[T+  70.99] shed!\x0d\x0a\x1b[mCHDRV_DSCRAM_FreeChannel[#829]: \x1b[1;34mDescram free: index = 1,handle = 0x808477ec,pid = 0x290.\x0d\x0a\x1b[mAssertion failed: 
+[T+  71.00] "ptr >= hp->base && ptr < (hp->base + hp->size)", file ch_heap.c, line 693\x0d\x0aAssertion failed: "p
+[T+  71.01] tr >= hp->base && ptr < (hp->base + hp->size)", file ch_heap.c, line 693\x0d\x0a
+[T+  71.22] \x0d\x0a ######CHAPP_GetTDTStatus#####
+[T+  71.23] #1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1Info####1530 \x0d\x0a
+[T+  71.28] \x0d\x0a ######CXCA_CMD_GetMyAccountIn
+[T+  71.29] fo#####4066 \x0d\x0a
+[T+  71.39] \x0d\x0a******EXIT the SmartCard monitor Task*******\x0d\x0a
+... T+75s spam=on
+[T+  78.61] Network stack using 262144 bytes for misc space\x0d\x0a                    262144 bytes for mbufs\x0d\x0a   
+[T+  78.62]                  524288 bytes for mbuf clusters\x0d\x0a[cyg_net_init] Init: mbinit(0x00000000)\x0d\x0a[cyg_n
+[T+  78.63] et_init] Init: cyg_net_init_devs(0x00000000)\x0d\x0aInit device 'pcnet_eth0'\x0d\x0a2138 drvEMAC_GetMacAddr \x0d\x0a[cyg_net_init] Init: loopattac
+[T+  78.64] h(0x00000000)\x0d\x0a[cyg_net_init] Init: ifinit(0x00000000)\x0d\x0a[cyg_net_init] Init: domaininit(0x00000000)\x0d\x0a[cyg_net_init] Init: cyg_ne
+[T+  78.65] t_add_domain(0x809c02bc)\x0d\x0aNew domain internet at 0x00000000\x0d\x0aRegister_netisr [2] fun=0x80691e1c\x0d\x0a\x0d\x0a[cyg_net_init] Init: cyg_net_
+[T+  78.66] add_domain(0x809bfdf0)\x0d\x0aNew domain route at 0x00000000\x0d\x0a[cyg_net_init] Init: call_route_init(0x0
+[T+  78.67] 0000000)\x0d\x0a[cyg_net_init] Done\x0d\x0a[eCos][CPU INFO] : CPU Clock = 1000000000 : RTC Period = 500000\x0d\x0a
+[T+  78.68] [eCos][MApi Set CPU INFO] : CPU 
+[T+  78.69] Clock = 1000000000 : RTC Period = 500000\x0d\x0a\x0d\x0d\x0a main init OK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\x0d\x0a\x0d\x0d\x0a En
+[T+  78.70] try main func.....18:18:57......\x0d\x0d\x0aDMX capability:\x0d
+[T+  78.71] \x0as32MaxPidFiltNum     = 95\x0d\x0as32MaxSectFiltNum    = 63\x0d\x0as32MaxSecFiltDepth   = 14\x0d\x0as32MaxLiveInNum      = 3\x0d\x0as32MaxFileInNum     
+[T+  78.72]  = 3\x0d\x0as32MaxVideoOutputNum = 1\x0d\x0as32MaxAudioOutputNum = 1\x0d\x0as32MaxPvrNum         = 2\x0d\x0a\x0d\x0a
+[T+  78.82]  CH_UART: 0x20002 Sep  6 2019 11:11:55\x0d\x0d\x0a CHDRV_VOUT: 0x20006 Sep  6 2019 11:11:48\x0d\x0d\x0a
+[T+  79.24]  CHDRV_GPIO: 0x20002 Sep  6 2019 11:11:36\x0d\x0d\x0a CHDRV_IIC: 0x20000 Sep  6 2019 11:11:36\x0d\x0d\x0aMDrv_IIC_Init  PORT  1 \x0d\x0aMDrv_IIC_InitPor
+[T+  79.25] t1: OK\x0d\x0a CHDRV_TSMNG: 0x20000 Sep  6 2019 11:11:40\x0d\x0d\x0a CHDRV_SECTION: 0x2000c Sep  6 2019 11:11:4
+[T+  79.27] 0\x0d\x0d\x0a CHDRV_TUNER: 0x2000f Sep  6 2019 11:11:46\x0d\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[0]=0x76540000----\x1b[m\x0d\x0a
+[T+  79.28] \x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216527]:rpuc_Name Tuner Callback ,ri_Priority 200 , rpv_StackPtr 0x812aff40, ri_St
+[T+  79.29] ackSize 8192 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216528]:rpuc_Name Tuner Stat
+[T+  79.30] us Check ,ri_Priority 200 , rpv_StackPtr 0x812adf30, ri_StackSize 8192 ----\x1b[m\x0d\x0aMDrv_IIC_Init  PORT  1 \x0d\x0aMDrv_IIC_InitPort1: OK\x0d\x0a
+[T+  79.34] [TUNER ERR][R836] read id =0x96\x0d\x0aMDrv_IIC_Init  PORT  1 \x0d\x0aMDrv_I
+[T+  79.35] IC_InitPort1: OK\x0d\x0a
+... T+80s spam=on
+[T+  80.10]  CHDRV_AVFILTER: 0x20001 Sep  6 2019 11:11:32\x0d\x0d\x0a CHDRV_VIDEO: 0x
+[T+  80.11] 2000a Sep  6 2019 11:11:48\x0d\x0d\x0a
+[T+  80.23]  CHDRV_AUDIO: 0x20006 Mar  7 2022 15:29:23\x0d\x0d\x0a CHDRV_AOUT: 0x2000
+[T+  80.24] 5 Feb 26 2020 20:53:01\x0d\x0d\x0a CHDRV_VWINDOW: 0x20001 Sep  6 2019 11:11:49\x0d\x0d\x0a CHDRV_OSD: 0x2000c Sep 
+[T+  80.25]  6 2019 11:11:36\x0d\x0d\x0a CHDRV_ROUTE: 0x20002 Sep  6 2019 11:11:37\x0d\x0d\x0a CHDRV_DSCRAM: 0x20011 Sep  6 2019 11:11:34\x0d\x0d\x0aCHDRV_DSCRAM_Init[
+[T+  80.26] #595]: \x1b[1;34mInitialize sucess.\x0d\x0a\x1b[mCHDRV_DSCRAM_SecureInit[#2137]: \x1b[1;34mMI KL Open finished,KeyLadder = 0x63000000,CAVID = 7
+[T+  80.27] \x0d\x0a\x1b[mCHDRV_DSCRAM_SetCryptKey[#2365]: ===Crypt Key==\x0d\x0a 0x47  0xc1  0x85  0x86  0x09  0xf4  0x61  0x50  0xdd  0xff  0x79  0xf7  0
+[T+  80.28] xd2  0x4c  0xd4  0x5d CHDRV_DSCRAM_SetCryptKey[#2370]: Set Crypt Key sucess.\x0d\x0aCHDRV_DSCRAM_Secur
+[T+  80.29] eInit[#2198]: \x1b[1;34mDecryptCipher = 0x25000001,EncryptCipher = 0x25000001\x0d\x0a\x1b[mCHDRV_DSCRAM_SecureInit[#2199]: \x1b[1;34mSecure Ini
+[T+  80.30] tialize sucess.\x0d\x0a\x1b[m CHDRV_FLASH: 0x20005 Sep  6 2019 11:11:35\x0d\x0d\x0aFlash is detected (0x0208, 0xEF
+[T+  80.31] , 0x40, 0x18)\x0d\x0aMDrv_SERFLASH_GetInfo()\x0d\x0a\x09u32AccessWidth = 1\x0d\x0a\x09u32TotalSize   = 16777216\x0d\x0a\x09u32SecNum      = 256\x0d\x0a\x09u32SecSize     
+[T+  80.32] = 65536\x0d\x0aCHDRV_FLASH_Init : #240 --> 2 --> \x1b[1;34mTotalSize : 0x1000000 SecSize : 0x10000 SecNum : 0x100\x0d\x0a\x1b[m\x0d\x0a CHDRV_FP (update
+[T+  80.33]  @ 2015/11/02): 0x20009 Sep  6 2019 11:11:35\x0d\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finis
+[T+  80.34] hed,Hdl[1]=0x76540001----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216539]:rpuc_Name IR_EVT ,ri_Priority 4 , rpv_StackP
+[T+  80.35] tr 0x812a98e0, ri_StackSize 4096 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[2]=0x76540002----\x1b[m\x0d\x0a\x1b[1;32m
+[T+  80.36] [DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216540]:rpuc_Name FP_KEY ,ri_Priority 50 , rpv_StackPtr 0
+[T+  80.37] x812a86b0, ri_StackSize 4096 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216541]:rpuc_Name FP_KEY ,ri_Priority 50 , r
+[T+  80.38] pv_StackPtr 0x812a76a0, ri_StackSize 4096 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216542]:rpuc_Name KEY_EVT ,ri_P
+[T+  80.39] riority 50 , rpv_StackPtr 0x812a6690, ri_StackSize 4096 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-
+[T+  80.40] ->Create Msg finished,Hdl[3]=0x76540003----\x1b[m\x0d\x0a[ch_mplay.c]-[CH_MPLAY_Init]-[55]-[INFO]: Test into ch_mplay_init.\x0d\x0d\x0a\x0d\x0a[ch_mplay
+[T+  80.41] .c]-[CH_MPLAY_Init]-[58]-[INFO]:into ch_mplay_init-->s0.\x0d\x0d\x0a\x0d\x0a CH_MPLAY: 0x20008 Sep  6 2019 11:11:53\x0d\x0d\x0a CHDRV_PVR: 0x20014 Sep  
+[T+  80.42] 6 2019 11:11:53\x0d\x0d\x0a[MWPVR] Not Initialize PVR!\x0d\x0a CH_HDMI: 0x20004 Sep  6 2019 11:11:55\x0d\x0d\x0a\x1b[1;32m[
+[T+  80.43] DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216543]:rpuc_Name Hdmi Task ,ri_Priority 200 , rpv_StackPtr 0x812a5160, ri_StackSize 4096 
+[T+  80.44] ----\x1b[m\x0d\x0a\x0d\x0a\x0d  CHDRV_Initialize  Finished !\x0d\x0d\x0aAllocate Virtual Memory: start:[0x80000180] End:[0x80500180]\x0d\x0a
+[T+  80.50] CalculatedDigest :\x0d\x0a         25 77 98 75 ce 9c 43 2e 1a 2a 9b 0a
+[T+  80.51]  07 7d 79 3b \x0d\x0a         61 5d d8 67 ff 30 78 ed f8 6f 08 dd b5 9a ab 12 \x0d\x0a         \x0d\x0a
+[T+  80.52] Start Background Checker area...\x0d\x0aCHDRV_FLASH_LockQuery : #771 --> 1 --> \x1b[1;31mInvalid para: renm_DeviceId=0, ri_Offset=0, ri_L
+[T+  80.53] en=0\x0d\x0a\x1b[m\x0d\x0aCheck flash buttom/top mode false.i_result = 7\x0d\x0d\x0aLock addr from 0 to 0x200000\x0d\x0d\x0a
+[T+  80.56] \x0d\x0a Lock Flash Status i_result = 0 \x0d\x0a MID_AV: 0x400 Mar  7 2022 1
+[T+  80.57] 6:20:18\x0d\x0d\x0a CHMID_AVM: 0x3000300 Dec 12 2018 16:33:37\x0d\x0d\x0a
+[T+  80.67]  CHMID GRP: 0xd000d01 Dec 12 2018 16:33:47\x0d\x0d\x0a MID_EPG:: 0x8000800 Dec 12 2018 16:33:39\x0d\x0d\x0a\x1b[1;32m
+[T+  80.68] [DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216545]:rpuc_Name MID_EPG_PF ,ri_Priority 200 , rpv_StackPtr 0x812a10c0, ri_StackSize 163
+[T+  80.69] 84 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216546]:rpuc_Name MID_EPG_SCH ,ri_Prio
+[T+  80.70] rity 200 , rpv_StackPtr 0x812990b0, ri_StackSize 32768 ----\x1b[m\x0d\x0a MID_FP: 0x2000209 Dec 12 2018 16:33:41\x0d\x0d\x0a CHMID_NVM: 0x300 Dec 
+[T+  80.71] 12 2018 16:34:14\x0d\x0d\x0a CHMID_PSI: 0x6000607 Dec 12 2018 16:34:14\x0d\x0d\x0a\x1b[1;32m[DEBUG]-->ch_platform.c:537-->app_heap_lock id = 0x765400
+[T+  80.72] 56\x0d\x0a----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[4]=0x76540004----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->Tas
+[T+  80.73] kInfo[1985216547]:rpuc_Name MID PSI Filter ,ri_Priority 100 , rpv_StackPtr 0x81288d80, ri_StackS
+[T+  80.74] ize 65536 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[5]=0x76540005----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348
+[T+  80.75] -->TaskInfo[1985216548]:rpuc_Name MID PSI Update ,ri_Priority 200 , rpv_StackPtr 0x81278a50, ri_StackSize 65536 ----\x1b[m\x0d\x0a CHMID_
+[T+  80.76] DT: 0x3000305 Dec 12 2018 16:33:37\x0d\x0d\x0a MID_ROUTE: 0x4000402 Dec 12 2018 16:34:16\x0d\x0d\x0a CHMID_SCAN(DVB_C MUL_AUDIO_LANG=2): 0x8000804
+[T+  80.77]  Dec 12 2018 16:34:17\x0d\x0d\x0a CHMID_TUNER(DVB_C): 0x8000801 Dec 12 2018 16:34:18\x0d\x0d\x0a\x1b[1;32m[DEBUG]-->c
+[T+  80.78] h_rtos.c:348-->TaskInfo[1985216549]:rpuc_Name Reset Carrier ,ri_Priority 189 , rpv_StackPtr 0x81274a40, ri_StackSize 16384 ----\x1b
+[T+  80.79] [m\x0d\x0a MID_DSR: 0x300 Dec 12 2018 16:33:38\x0d\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216550]:rpuc_Name MID_DSR_Monitor ,ri_P
+[T+  80.80] riority 200 , rpv_StackPtr 0x81273a30, ri_StackSize 4096 ----\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 
+[T+  80.81] --> \x1b[1;34mopen Offset : 7f0000 Len : 10000\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : 7f0000 Length : 1000
+[T+  80.82] 0\x0d\x0a\x1b[m\x0d\x0a
+[T+  80.87] CHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : 7e0000 Le
+[T+  80.88] n : 10000\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : 7e0000 Length : 28\x0d\x0a\x1b[m\x0d\x0aCHAPP_LCA_Sync()#517:LCA main
+[T+  80.89]  & back are ok!\x0d\x0a>>[CH_COM_GetLoaderInfo]...\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : fe0000 Len : 80\x0d\x0a\x1b[m\x0d\x0aCHDRV
+[T+  80.90] _FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : ff0000 Len : 80\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr 
+[T+  80.91] : fe0000 Length : 34\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : ff0000 Leng
+[T+  80.92] th : 34\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : fe6300 Len : 80\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1
+[T+  80.94] ;34mopen Offset : ff6300 Len : 80\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : fe6300 Length : 40\x0d\x0a\x1b[m\x0d\x0aCHDRV
+[T+  80.95] _FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : ff6300 Length : 40\x0d\x0a\x1b[m\x0d\x0a\x0d\x0a\x0d  CH_COM_GetFac
+[T+  80.96] tBoot  : ret = 0 b_Flag = 0\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216551]:rpuc_Name audio NewFrame ,ri_Priority 200 , rpv
+[T+  80.97] _StackPtr 0x81271940, ri_StackSize 8192 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_platform.c:1776-->SecondADecoder = 0,ADecoder = 0\x0d\x0a----\x1b[m\x0d
+[T+  80.98] \x0a>>[CHAPP_CreateRoute]<0> [0x80a14ab0]\x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->1 \x0d\x0aCHDRV_FLASH_Open : #3
+[T+  80.99] 07 --> 2 --> \x1b[1;34mopen Offset : e20000 Len : f0\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : e20000 Length 
+[T+  81.00] : f0\x0d\x0a\x1b[m\x0d\x0a>>OK [CHAPP_DBASE_ReadFlashData] OFF[0xe20000]\x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->2 \x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->C
+[T+  81.01] reate Msg finished,Hdl[6]=0x76540006----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216552]:rpuc_Name CHAPP_DBASE_SaveTas
+[T+  81.02] kProcess ,ri_Priority 248 , rpv_StackPtr 0x81261710, ri_StackSize 65536 ----\x1b[m\x0d\x0a\x0d\x0a CHAPP_DBASE_
+[T+  81.03] ReadFlashData-->1 \x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : 7c0000 Len : c34\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 
+[T+  81.04] --> \x1b[1;34mread StartAddr : 7c0000 Length : c34\x0d\x0a\x1b[m\x0d\x0a>>OK [CHAPP_DBASE_ReadFlashData] OFF[0x7c0000]\x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashDa
+[T+  81.05] ta-->2 \x0d\x0a>>CHAPP_DBASE_GetBoxInfo<read boxinfo is ok!> Size = 0xc34\x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashDat
+[T+  81.06] a-->1 \x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : 800000 Len : 619b8\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34
+[T+  81.07] mread StartAddr : 800000 Length : 619b8\x0d\x0a\x1b[m\x0d\x0a
+[T+  81.41] >>OK [CHAPP_DBASE_ReadFlashData]
+[T+  81.42]  OFF[0x800000]\x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->2 \x0d\x0a>>CHAPP_DBASE_GetFlashInfo<read flash_info is ok! Size = 0x619b8>\x0d\x0a>>CHAPP_DB
+[T+  81.43] ASE_CheckBoxInfo<Good!>\x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->1 \x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[
+[T+  81.44] 1;34mopen Offset : 7d0000 Len : c34\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : 7d0000 Length : c34\x0d\x0a\x1b[m\x0d\x0a
+[T+  81.45] >>OK [CHAPP_DBASE_ReadFlashData] OFF[0x7d0000]\x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->2 \x0d\x0a>>CHAPP_DBASE
+[T+  81.46] _BASKUP_CheckForUpdate Need Update backup BoxInfo\x0d\x0a\x0d\x0a CHAPP_DBASE_WriteFlashData-->1 \x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34m
+[T+  81.47] open Offset : 7d0000 Len : c34\x0d\x0a\x1b[m\x0d\x0a
+[T+  81.89] CHDRV_FLASH_DirectWrite : #541 --> 2 --> \x1b[1;34mDirectWrite Star
+[T+  81.90] tAddr : 7d0c34 Length : c34\x0d\x0a\x1b[m\x0d\x0a>>OK [CHMID_NVM_FlashDirectWrite]<TryTime=5> Off[0x7d0000]\x0d\x0a\x0d\x0a CHAPP_DBASE_WriteFlashData-->2 
+[T+  81.91] \x0d\x0a\x0d\x0a gpstru_BoxInfo->ui_LogoOn_Sec = 0 \x0d\x0a>>CHAPP_DBASE_CheckFlash Start to <Service SectorType>\x0d\x0a
+[T+  81.94] >>CHAPP_DBASE_CheckFlash Start to <TIMER>\x0d\x0a>>CHAPP_DBASE_CheckFl
+[T+  81.95] ash<Good!>\x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->1 \x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : 7d0000 Len : c34\x0d\x0a\x1b[m\x0d\x0aCHD
+[T+  81.96] RV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : 7d0000 Length : c34\x0d\x0a\x1b[m\x0d\x0a>>OK [CHAPP_DBASE_ReadFlashData] OFF[0x7d0000]\x0d
+[T+  81.97] \x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->2 \x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->1
+[T+  81.98]  \x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : 870000 Len : 619b8\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread
+[T+  81.99]  StartAddr : 870000 Length : 619b8\x0d\x0a\x1b[m\x0d\x0a
+[T+  82.33] >>OK [CHAPP_DBASE_ReadFlashData]
+[T+  82.34]  OFF[0x870000]\x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->2 \x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --
+[T+  82.35] > \x1b[1;34mopen Offset : fe0300 Len : 600\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offs
+[T+  82.36] et : ff0300 Len : 600\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : fe0300 Length : 130\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read
+[T+  82.37]  : #365 --> 2 --> \x1b[1;34mread StartAddr : ff0300 Length : 130\x0d\x0a\x1b[m\x0d\x0a\x0d\x0a BAT_RAM_STRUCT_LEN = 0x15
+[T+  82.38] e04 \x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->1 \x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : 8e0000 Len : 15e08\x0d\x0a\x1b[m\x0d\x0aCHDRV_F
+[T+  82.39] LASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : 8e0000 Length : 15e08\x0d\x0a\x1b[m\x0d\x0a
+[T+  82.47] >>OK [CHAPP_DBASE_ReadFlashData] OFF[0x8e0000]\x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->2 \x0d\x0a
+[T+  82.67] \x1b[31m[chdrv_video.c]-[CHDRV_VIDE
+[T+  82.68] O_SetWinAttrib]-[1158]-[ERR]:MI_DISP_ApplySetting err 3\x1b[0m\x0d\x0a
+[T+  82.88] \x1b[31m[chdrv_osd.c]-[CHDRV_OSD_Cl
+[T+  82.89] earArea]-[2851]-[ERROR]:mem null\x1b[0m\x0d\x0d\x0a
+[T+  82.93] \x1b[31m[chdrv_osd.c]-[CHDRV_OSD_ClearArea]-[2851]-[ERROR]:mem null\x1b[0m\x0d\x0d\x0a
+[T+  82.98] \x0d\x0a CHAPP_DBASE_ReadFlashData-->1 \x0d\x0aCHDRV_FLASH_Open : #307 --> 2
+[T+  82.99]  --> \x1b[1;34mopen Offset : 650000 Len : 1616a8\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : 650000 Length : 16
+[T+  83.00] 16a8\x0d\x0a\x1b[m\x0d\x0a
+[T+  84.24] >>OK [CHAPP_DBASE_ReadFlashData] OFF[0x650000]\x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->2 \x0d\x0a
+[T+  84.27] >>[CHMID_GRP_OpenGifFile]<4>\x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->1 \x0d\x0aCHDRV_FLASH_Open : #307 --> 2 -
+[T+  84.28] -> \x1b[1;34mopen Offset : 630000 Len : 11379\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : 630000 Length : 11379
+[T+  84.29] \x0d\x0a\x1b[m\x0d\x0a
+[T+  84.35] >>OK [CHAPP_DBASE_ReadFlashData] OFF[0x630000]\x0d\x0a\x0d\x0a CHAPP_DBASE_ReadFlashData-->2 \x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[198
+[T+  84.36] 5216553]:rpuc_Name APP_ADC_Task ,ri_Priority 220 , rpv_StackPtr 0x8124d6f0, ri_StackSize 16384 -
+[T+  84.37] ---\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[7]=0x76540007----\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34m
+[T+  84.39] open Offset : 960000 Len : 40000\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr :
+[T+  84.40]  960000 Length : 29f8\x0d\x0a\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645--
+[T+  84.41] >Create Msg finished,Hdl[8]=0x76540008----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216
+[T+  84.42] 554]:rpuc_Name CSAdsSysThread ,ri_Priority 155 , rpv_StackPtr 0x81248980, ri_StackSize 16384 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c
+[T+  84.43] :348-->TaskInfo[1985216555]:rpuc_Name (null) ,ri_Priority 220 , rpv_StackPtr 0x81246170, ri_StackSize 10240 ----\x1b[m\x0d\x0aCHDRV_FLASH
+[T+  84.44] _Read : #365 --> 2 --> \x1b[1;34mread StartAddr : 970000 Length : f0dd\x0d\x0a\x1b[m\x0d\x0a
+[T+  84.61] unknown IOCTL 10\x0d\x0a
+[T+  84.64] \x0d\x0a Bootup time = 10 \x0d\x0a\x1b[1;32m[DE
+[T+  84.65] BUG]-->ch_rtos.c:348-->TaskInfo[1985216557]:rpuc_Name APP_ADC_Task ,ri_Priority 220 , rpv_StackPtr 0x81242160, ri_StackSize 1638
+[T+  84.66] 4 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[9]=0x76540009----\x1b[m\x0d\x0a\x0d\x0a ###
+[T+  84.67] ###CHMID_ADMS_DB_Init########419######## \x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : a00000 Len : 20000\x0d\x0a\x1b[m\x0d\x0aCHDRV
+[T+  84.68] _FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : a00000 Length : 29f8\x0d\x0a\x1b[m\x0d\x0a
+[T+  84.69] \x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[10]=0x7
+[T+  84.70] 654000a----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216558]:rpuc_Name CSAdsSysThread ,ri_Priority 155 , rpv_StackPtr 0
+[T+  84.71] x8123d3f0, ri_StackSize 16384 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216559]:rpu
+[T+  84.72] c_Name (null) ,ri_Priority 220 , rpv_StackPtr 0x8123abe0, ri_StackSize 10240 ----\x1b[m\x0d\x0a
+[T+  84.92]  CONAX: 0xa0000 Mar 25 2025 18:1
+[T+  84.93] 8:59\x0d\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[11]=0x7654000b----\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34m
+[T+  84.94] open Offset : 9e0000 Len : 10000\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : 9a0000 Len : 10000\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLA
+[T+  84.95] SH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : 9b0000 Len : 10000\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : 9c
+[T+  84.96] 0000 Len : 10000\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : 9d0000 Len : 10000
+[T+  84.97] \x0d\x0a\x1b[m\x0d\x0a\x0d\x0aSMART:[CHDRV_SC_Init][#195] \x1b[1;31mCHDRV_SC_Init ...\x0d\x0a\x1b[m CHDRV_SC: 0x2000a Jan  5 2021 14:15:50\x0d\x0d\x0a\x1b[1;32mEnable TEE wi
+[T+  84.98] th state:0xD4A64C28\x1b[m\x0d\x0aSCPU firmware seems to be already loaded.\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : ec0000
+[T+  84.99]  Len : 20000\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : ee0000 Len : 20000\x0d\x0a\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:34
+[T+  85.00] 8-->TaskInfo[1985216560]:rpuc_Name cas_vsc_task ,ri_Priority 180 , rpv_StackPtr 0x80c01edc, ri_S
+[T+  85.01] tackSize 4096 ----\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : ec0000 Length : 10088\x0d\x0a\x1b[m\x0d\x0a
+[T+  85.07] CHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : ee0000 Length : 10088\x0d\x0a\x1b[m\x0d\x0a
+... T+85s spam=on
+[T+  86.58] \x1b[1;32m[DEBUG]-->ch_rtos.c:645--
+[T+  86.59] >Create Msg finished,Hdl[12]=0x7654000c----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg fini
+[T+  86.60] shed,Hdl[13]=0x7654000d----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216561]:rpuc_Name EcmDataMonitor ,ri_Priority 180 
+[T+  86.61] , rpv_StackPtr 0x81235c70, ri_StackSize 16384 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216562]:rpuc_Name EmmDataMo
+[T+  86.62] nitor ,ri_Priority 180 , rpv_StackPtr 0x81231c60, ri_StackSize 16384 ----\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread Star
+[T+  86.63] tAddr : 9e0000 Length : 1180\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : 9c0
+[T+  86.64] 000 Length : 10000\x0d\x0a\x1b[m\x0d\x0a
+[T+  86.70] CHDRV_FLASH_Read : #365 --> 2 --
+[T+  86.71] > \x1b[1;34mread StartAddr : 9d0000 Length : 10000\x0d\x0a\x1b[m\x0d\x0a
+[T+  86.77] CHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : 9e1180 Length : 44\x0d\x0a\x1b[m\x0d\x0a\x1b[1;32m[DEBUG
+[T+  86.78] ]-->ch_rtos.c:348-->TaskInfo[1985216563]:rpuc_Name MAIL_task ,ri_Priority 220 , rpv_StackPtr 0x8122dc50, ri_StackSize 16384 ----
+[T+  86.79] \x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216564]:rpuc_Name MsgTimeCheck ,ri_Priority 2
+[T+  86.80] 20 , rpv_StackPtr 0x81229c40, ri_StackSize 16384 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216565]:rpuc_Name FP_Che
+[T+  86.81] ck ,ri_Priority 220 , rpv_StackPtr 0x81225c30, ri_StackSize 16384 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216566]
+[T+  86.82] :rpuc_Name MAIN ,ri_Priority 180 , rpv_StackPtr 0x8121dc20, ri_StackSize 32768 ----\x1b[m\x0d\x0a\x1b[1;32m[
+[T+  86.83] DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216567]:rpuc_Name Check Signal Task ,ri_Priority 200 , rpv_StackPtr 0x8121cc10, ri_StackSi
+[T+  86.84] ze 4096 ----\x1b[m\x0d\x0a
+[T+  86.88] CHMID_ADMS_Boot-->D1-->Type:[1],
+[T+  86.89] Freq:[402000],Rate:[6875],QAM:[5]\x0d\x0d\x0a\x0d\x0a #####CHMID_ADMS_Boot#####953 \x0d\x0a
+... T+90s spam=on
+... T+95s spam=on
+[T+  96.94] CHMID_ADV_Boot-->D1-->Type:[1],F
+[T+  96.95] req:[402000],Rate:[6875],QAM:[5]\x0d\x0d\x0a
+[T+  97.01] \x0d\x0d\x0a already find Zone 19 \x0d\x0a CHAPP_DBASE_WriteFlashData-->1 \x0d\x0aCHD
+[T+  97.02] RV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : e20000 Len : f0\x0d\x0a\x1b[m\x0d\x0a
+[T+  97.44] CHDRV_FLASH_DirectWrite : #541 --> 2 --> \x1b[1;34mDirectWrite StartAddr : e200f0 Length : f0\x0d\x0a\x1b[m\x0d\x0a>>OK [CHMID_NVM_FlashDirectWrit
+[T+  97.45] e]<TryTime=5> Off[0xe20000]\x0d\x0a\x0d\x0a CHAPP_DBASE_WriteFlashData-->2 \x0d\x0a\x0d\x0a boot go to  Dynamic_LCN = 34
+[T+  97.46] 1 ,Dynamic_Time = 20\x0d\x0a\x0d\x0a 111 Bootup Dynamic channel Index = 164 \x0d\x0a\x0d\x0a ######CHAPP_StartRCUBlockTime#####697####20,39850 \x0d\x0a\x1b[1;32m
+[T+  97.47] [DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[14]=0x7654000e----\x1b[m\x0d\x0a__CHAPP_PM_Init : 4492 <0x7654000e>\x0d\x0a\x1b[1;32m[DEBUG]-->c
+[T+  97.48] h_rtos.c:348-->TaskInfo[1985216568]:rpuc_Name app smartcard Task ,ri_Priority 200 , rpv_StackPtr
+[T+  97.49]  0x812182d0, ri_StackSize 16384 ----\x1b[m\x0d\x0a\x0d\x0d\x0a###CHMID_EPG_Start--3036--[0,0]--NewDemux\x0d\x0d\x0a###CHMID_EPG_NewPFCapture--2393--Enter\x0d\x0d
+[T+  97.50] \x0a###CHMID_EPG_NewPFCapture--2399--[0,0]--Doing\x0d\x0d\x0a###CHMID_EPG_NewPFCapture--2412--Done\x0d\x0d\x0a###CHMID_EPG_NewSchCa
+[T+  97.51] pture--2577--Enter\x0d\x0d\x0a###CHMID_EPG_NewSchCapture--2583--[0,0]--Doing\x0d\x0d\x0a###CHMID_EPG_NewSchCapture
+[T+  97.52] --2615--Done\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216569]:rpuc_Name app Timer Task ,ri_Priority 200 , rpv_StackPtr 0x812
+[T+  97.53] 152c0, ri_StackSize 12288 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[15]=0x7654000f----\x1b[m\x0d\x0aCHDRV_FLASH_O
+[T+  97.54] pen : #307 --> 2 --> \x1b[1;34mopen Offset : fe0000 Len : 80\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : ff0000 Le
+[T+  97.55] n : 80\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : fe0000 Length : 34\x0d\x0a\x1b[m\x0d\x0a
+[T+  97.56] CHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread StartAddr : ff0000 Length : 34\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen
+[T+  97.57]  Offset : fe0300 Len : 600\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : ff0300 Len : 600\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read 
+[T+  97.58] : #365 --> 2 --> \x1b[1;34mread StartAddr : fe0300 Length : 130\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2
+[T+  97.59]  --> \x1b[1;34mread StartAddr : ff0300 Length : 130\x0d\x0a\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216570]:rpuc_Name CDT_Proce
+[T+  97.60] ss ,ri_Priority 221 , rpv_StackPtr 0x81213a80, ri_StackSize 4096 ----\x1b[m\x0d\x0a CHDRV_PESFILTER: 0x20000 Sep  6 2019 11:11:50\x0d\x0d\x0a\x1b[1;3
+[T+  97.61] 2m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[16]=0x76540010----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216571]
+[T+  97.62] :rpuc_Name FSYS_Process_Data ,ri_Priority 249 , rpv_StackPtr 0x811f3750, ri_StackSize 131072 ---
+[T+  97.63] -\x1b[m\x0d\x0a CH_FSYS: 0x2000f Sep  6 2019 11:11:51\x0d\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[17]=0x76540011----\x1b[m\x0d\x0a\x1b
+[T+  97.64] [1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[18]=0x76540012----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216
+[T+  97.65] 572]:rpuc_Name USB Interface Detect Task ,ri_Priority 200 , rpv_StackPtr 0x811cb000, ri_StackSiz
+[T+  97.66] e 163840 ----\x1b[m\x0d\x0a
+[T+  97.69] \x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216576]:rpuc_Name CHFileSysTask ,ri_Priority 180 , rpv_StackPtr 0x811c77b0, ri_Sta
+[T+  97.70] ckSize 4096 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216577]:rpuc_Name UpdateSpace
+[T+  97.71] Task ,ri_Priority 200 , rpv_StackPtr 0x811c4fa0, ri_StackSize 10240 ----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[198521657
+[T+  97.72] 8]:rpuc_Name UsbProcTask ,ri_Priority 200 , rpv_StackPtr 0x811c3f90, ri_StackSize 4096 ----\x1b[m\x0d\x0a[ch_mplay.c]-[CH_MPLAY_Init]-[55
+[T+  97.73] ]-[INFO]: Test into ch_mplay_init.\x0d\x0d\x0a\x0d\x0a[ch_mplay.c]-[CH_MPLAY_Init]-[58]-[INFO]:into ch_mplay_in
+[T+  97.74] it-->s0.\x0d\x0d\x0a\x0d\x0a CH_MPLAY: 0x20008 Sep  6 2019 11:11:53\x0d\x0d\x0a[ch_mplay.c]-[CH_MPLAY_Init]-[63]-[INFO]:**CH_MPLAY_Init:Mplay is initial
+[T+  97.75] ized.\x0d\x0d\x0a\x0d\x0a CHDRV_PVR: 0x20014 Sep  6 2019 11:11:53\x0d\x0d\x0a\x1b[35m[chdrv_pvr.c]-[CHDRV_PVR_Init]-[1115]-[ERROR]:drv_pvr is initialed\x0d\x0a\x1b[
+[T+  97.76] 0m\x0d\x0d\x0a CHMID_PVR: 0xe0005 Dec 12 2018 16:34:21\x0d\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[19]=0x76540014----\x1b[m\x0d\x0a
+[T+  97.77] \x1b[1;32m[DEBUG]-->ch_rtos.c:348-->TaskInfo[1985216579]:rpuc_Name CHMID_PVR_PROCESS ,ri_Priority 2
+[T+  97.79] 10 , rpv_StackPtr 0x811b3b60, ri_StackSize 65536 ----\x1b[m\x0d\x0a\x0d\x0aINFO:CHMID_PVR_GetConfig Enter\x0d\x0aINFO:CHMID_PVR_SetConfig Enter\x0d\x0aINFO
+[T+  97.80] :CHMID_PVR_SetConfig pfn_CopyFun=0x80184694\x0d\x0a,pfn_RecordFun=0x801832dc\x0d\x0a,pfn_ReplayFun=0x80183384\x0d\x0a,pfn_TimeShiftFun=0x80183df0\x0d
+[T+  97.81] \x0a, h_PvrMemHandle=0x8085c6a8\x0d\x0a,i_TimeshiftFileSizeKB=4194304\x0d\x0a, b_NodataRECPause=0\x0d\x0a, i_LimitLen
+[T+  97.82] gthWarningKB=307200\x1b[1;32m[DEBUG]-->ch_rtos.c:645-->Create Msg finished,Hdl[20]=0x76540015----\x1b[m\x0d\x0a\x1b[1;32m[DEBUG]-->ch_rtos.c:34
+[T+  97.83] 8-->TaskInfo[1985216580]:rpuc_Name DVBUsifProcess ,ri_Priority 100 , rpv_StackPtr 0x810b3830, ri
+[T+  97.84] _StackSize 1048576 ----\x1b[m\x0d\x0a\x0d\x0d\x0a==========CHANGHONG=
+[T+  97.85] ==================\x0d\x0d\x0a   Built on Mar 25 2025 at 18:18:57\x0d\x0d\x0a\x09Chip Mstar5043\x0d\x0d\x0a==============================================\x0d\x0d\x0a\x0d\x0d
+[T+  97.86] \x0aweijianjun 20130107 1128\x0d\x0d\x0a
+[T+  97.99] unknown IOCTL 10\x0d\x0a
+[T+  98.02] \x0d\x0a CHAPP_CA_TestLandingInfo [0][0,0,0:0,0:0][0,0,0:0,0:0][0/0/0]
+[T+  98.03]  \x0d\x0a\x0d\x0a ######CHAPP_StartRCUBlockTime
+[T+  98.04] #####697####20,40425 \x0d\x0a\x1b[31m[chdrv_video.c]-[CHDRV_VIDEO_UnInstallCallback]-[957]-[ERR]:\x1b[0m\x0d\x0a\x0d\x0a ####CHAPP_NewChannel####897##ne
+[T+  98.05] tid=[REDACTED],tsid=[REDACTED],service id=[REDACTED] \x0d\x0aCHDRV_DSCRAM_GetChipId[#2261]: \x1b[1;34mGet chipId = [REDACTED_CA_ID].\x0d\x0a\x1b[m
+[T+  98.07] Invalid EDID header data\x0d\x0d\x0a>>[play channel]<vpid=130, apid=12c, pcr_pid=130, vtype=0, atype=1 na
+[T+  98.08] me=[REDACTED_CHANNEL], index=164> PMT PID=0x47 LCN=341\x0d\x0a
+[T+  98.15] \x0d\x0a #####MI_AOUT_SetDigitalMode_ForMplay#####2654 --:bSkipDigital
+[T+  98.16] Mode:0\x0d\x0a\x0d\x0a #####MI_AOUT_SetDigitalMode_ForMplay#####2665 --:bSkipDigitalMode:0\x0d\x0ago HDMI_OUT_PCM --------999-------\x0d\x0d\x0a-----------
+[T+  98.17] ------g_first_setmode had been seto: 0 \x0d\x0d\x0aCHDRV_AUDIO_StartDecode 613 ,set DIGITALMODE_PCM ...\x0d\x0a
+[T+  98.18] \x0d\x0a #####MI_AOUT_SetDigitalMode_ForMplay#####2654 --:bSkipDigitalMode:0\x0d\x0a\x0d\x0a #####MI_AOUT_SetDigitalMode_ForMplay#####2665 --:bSki
+[T+  98.19] pDigitalMode:0\x0d\x0ago HDMI_OUT_PCM --------999-------\x0d\x0d\x0a\x1b[1;31m HAHAHA, CxCA_ECM_TYPE_CLEAN us_Pid == [0x0], us_EcmPid == [0x0]!!! 
+[T+  98.20] \x1b[m\x0d\x0a\x1b[1;31m HAHAHA, CxCA_ECM_TYPE_CLEAN us_Pid == [0x0], us_EcmPid == [0x0]!!! \x1b[m\x0d\x0a
+[T+  98.29] CHDRV_DSCRAM_AllocChannel[#733]:
+[T+  98.30]  \x1b[1;34mDescram all
+[T+  98.31] oc index = 0, Descrambler = 0x808477c0,j = 0,m_hHandle = 0x3c000000.\x0d\x0a\x1b[mCHDRV_DSCRAM_Disable[#1
+[T+  98.32] 996]: \x1b[1;34mDescrambler = 0x808477c0 ,pid = 0x1fff,disable finished!\x0d\x0a\x1b[mConnect_Pid2Mihandle[#474]: \x1b[1;34mi=0,pid = 0x0,u_cnt
+[T+  98.33] =0.\x0d\x0a\x1b[mCHDRV_DSCRAM_SetPid[#887]: \x1b[1;34mDescrambler = 0x808477c0,set pid ok,pid = 0x130,index = 0.\x0d\x0a\x1b[mCHDRV_DSCRAM_Enable[#18
+[T+  98.34] 80]: \x1b[1;34mconnect PID = 0x130, index = 0,mi_handle = 0x3c000000\x0d\x0a\x1b[mCHDRV_DSCRAM_Enable[#1896]
+[T+  98.35] : \x1b[1;34mDescrambler = 0x808477c0 ,pid =0x130 ,enable finished!\x0d\x0a\x1b[mCHDRV_SECTION_StopFilter -->02-->rh_Filter=0x0\x0d\x0aCHDRV_SECTIO
+[T+  98.36] N_FreeFilter -->02-->rh_Filter=0x0\x0d\x0aCHDRV_DSCRAM_AllocChannel[#733]: \x1b[1;34mDescram alloc index = 1, Descrambler = 0x808477ec,j 
+[T+  98.37] = 1,m_hHandle = 0x3c000001.\x0d\x0a\x1b[mCHDRV_DSCRAM_Disable[#1996]: \x1b[1;34mDescrambler = 0x808477ec ,pi
+[T+  98.38] d = 0x1fff,disable finished!\x0d\x0a\x1b[mConnect_Pid2Mihandle[#474]: \x1b[1;34mi=1,pid = 0x0,u_cnt=0.\x0d\x0a\x1b[mCHDRV_DSCRAM_SetPid[#887]: \x1b[1;34
+[T+  98.39] mDescrambler = 0x808477ec,set pid ok,pid = 0x12c,index = 1.\x0d\x0a\x1b[mCHDRV_DSCRAM_Enable[#1880]: \x1b[1;34mconnect PID = 0x12c, index = 
+[T+  98.40] 1,mi_handle = 0x3c000001\x0d\x0a\x1b[mCHDRV_DSCRAM_Enable[#1896]: \x1b[1;34mDescrambler = 0x808477ec ,pid =0
+[T+  98.41] x12c ,enable finished!\x0d\x0a\x1b[m
+[T+  98.78] \x0d\x0a ######CHAPP_GetTDTStatus#####
+[T+  98.79] #1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1Info####1530 \x0d\x0a
+[T+  98.84] \x0d\x0a ######CXCA_CMD_GetMyAccountInfo#####4066 \x0d\x0a
+[T+  99.05] CHDRV_DSCRAM_GetChipId[#2261]: \x1b
+[T+  99.07] [1;34mGet chipId = [REDACTED_CA_ID].\x0d\x0a\x1b[mCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : fe0000
+[T+  99.08]  Len : 80\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Open : #307 --> 2 --> \x1b[1;34mopen Offset : ff0000 Len : 80\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b
+[T+  99.09] [1;34mread StartAddr : fe0000 Length : 34\x0d\x0a\x1b[m\x0d\x0aCHDRV_FLASH_Read : #365 --> 2 --> \x1b[1;34mread St
+[T+  99.10] artAddr : ff0000 Length : 34\x0d\x0a\x1b[m\x0d\x0a
+... T+100s spam=on
+... T+105s spam=on
+[T+ 105.37] \x0d\x0a chapp_qrencodeData code with 
+[T+ 105.38] = 45\x0d\x0a\x0d\x0a\x0d <<<chapp_qrencodeData>>>  x=848,  y=273 ,w=94,h=94 \x0d\x0a\x0d
+[T+ 109.22] \x0d\x0a ######CHAPP_GetTDTStatus#####
+[T+ 109.23] #1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1Info####1530 \x0d\x0a
+[T+ 109.28] \x0d\x0a ######CXCA_CMD_GetMyAccountInfo#####4066 \x0d\x0a
+... T+110s spam=on
+... T+115s spam=on
+[T+ 119.04] \x0d\x0a ######CHAPP_StartRCUBlockTime
+[T+ 119.05] #####677####0,0 \x0d\x0a\x0d\x0a ######CHAPP_StartRCUBlockTime#####682####0,59446 \x0d\x0a\x0d\x0a #####CHAPP_CheckBootU
+[T+ 119.06] pChannelStatus#######894,Have Landing u16_LocalLandLCN = 339 \x0d\x0a\x0d\x0a ####CHAPP_NewChannel####897##
+[T+ 119.07] netid=[REDACTED],tsid=[REDACTED],service id=[REDACTED] \x0d\x0a
+[T+ 119.09] Invalid EDID header data\x0d\x0d\x0a>>[play channel]<vpid=205, apid=290, pcr_pid=205, vtype=0, atype=0 na
+[T+ 119.10] me=CHANNEL_0256, index=159> PMT PID=0x22 LCN=339\x0d\x0a
+[T+ 119.13] \x0d\x0a #####MI_AOUT_SetDigitalMode_F
+[T+ 119.14] orMplay#####2654 --:bSkipDigitalMode:0\x0d\x0a\x0d\x0a #####MI_AOUT_SetDigitalMode_ForMplay#####2665 --:bSki
+[T+ 119.15] pDigitalMode:0\x0d\x0ago HDMI_OUT_PCM --------999-------\x0d\x0d\x0a\x1b[1;31m HAHAHA, CxCA_ECM_TYPE_CLEAN us_Pid == [0x130], us_EcmPid == [0x1864
+[T+ 119.16] ]!!! \x1b[m\x0d\x0a\x1b[1;31m HAHAHA, CxCA_ECM_TYPE_CLEAN us_Pid == [0x12c], us_EcmPid == [0x1864]!!! \x1b[m\x0d\x0a
+[T+ 119.25] CHDRV_DSCRAM_Disable[#1970]: \x1b[1;34mdisconnect PID = 0x130, inde
+[T+ 119.26] x = 0 ,mi_handle = 0x3c000000\x0d\x0a\x1b[mCHDRV_DSCRAM_Disable[#1996]: \x1b[1;34mDescrambler = 0x808477c0 ,pid = 0x1fff,disable finished!\x0d\x0a
+[T+ 119.27] \x1b[mCHDRV_DSCRAM_FreeChannel[#829]: \x1b[1;34mDescram free: index = 0,handle = 0x808477c0,pid = 0x130.\x0d\x0a\x1b[mCHDRV_DSCRAM_Disable[#197
+[T+ 119.28] 0]: \x1b[1;34mdisconnect PID = 0x12c, index = 1 ,mi_handle = 0x3c000001\x0d\x0a\x1b[mCHDRV_DSCRAM_Disable[#1
+[T+ 119.29] 996]: \x1b[1;34mDescrambler = 0x808477ec ,pid = 0x1fff,disable finished!\x0d\x0a\x1b[mCHDRV_DSCRAM_FreeChannel[#829]: \x1b[1;34mDescram free: i
+[T+ 119.30] ndex = 1,handle = 0x808477ec,pid = 0x12c.\x0d\x0a\x1b[mCHDRV_DSCRAM_AllocChannel[#733]: \x1b[1;34mDescram al
+[T+ 119.31] loc index = 0, Descrambler = 0x808477c0,j = 0,m_hHandle = 0x3c000000.\x0d\x0a\x1b[mCHDRV_DSCRAM_Disable[#1996]: \x1b[1;34mDescrambler = 0x80
+[T+ 119.32] 8477c0 ,pid = 0x1fff,disable finished!\x0d\x0a\x1b[mConnect_Pid2Mihandle[#474]: \x1b[1;34mi=0,pid = 0x1
+[T+ 119.33] fff,u_cnt=0.\x0d\x0a\x1b[mCHDRV_DSCRAM_SetPid[#887]: \x1b[1;34mDescrambler = 0x808477c0,set pid ok,pid = 0x205,index = 0.\x0d\x0a\x1b[mCHDRV_DSCRAM_E
+[T+ 119.34] nable[#1880]: \x1b[1;34mconnect PID = 0x205, index = 0,mi_handle = 0x3c000000\x0d\x0a\x1b[mCHDRV_DSCRAM_Enable[#1896]: \x1b[1;34mDescrambler = 
+[T+ 119.35] 0x808477c0 ,pid =0x205 ,enable finished!\x0d\x0a\x1b[mCHDRV_SECTION_StopFilter -->02-->rh_Filter=0x0\x0d\x0aCHD
+[T+ 119.36] RV_SECTION_FreeFilter -->02-->rh_Filter=0x0\x0d\x0aCHDRV_DSCRAM_AllocChannel[#733]: \x1b[1;34mDescram alloc index = 1, Descrambler = 0x80
+[T+ 119.37] 8477ec,j = 1,m_hHandle = 0x3c000001.\x0d\x0a\x1b[mCHDRV_DSCRAM_Disable[#1996]: \x1b[1;34mDescrambler = 0x808477ec ,pid = 0x1fff,disable fini
+[T+ 119.38] shed!\x0d\x0a\x1b[mConnect_Pid2Mihandle[#474]: \x1b[1;34mi=1,pid = 0x1fff,u_cnt=0.\x0d\x0a\x1b[mCHDRV_DSCRAM_SetPid[#
+[T+ 119.39] 887]: \x1b[1;34mDescrambler = 0x808477ec,set pid ok,pid = 0x290,index = 1.\x0d\x0a\x1b[mCHDRV_DSCRAM_Enable[#1880]: \x1b[1;34mconnect PID = 0x2
+[T+ 119.40] 90, index = 1,mi_handle = 0x3c000001\x0d\x0a\x1b[mCHDRV_DSCRAM_Enable[#1896]: \x1b[1;34mDescrambler = 0x808477ec ,pid =0x290 ,enable finishe
+[T+ 119.41] d!\x0d\x0a\x1b[m
+... T+120s spam=on
+... T+125s spam=on
+[T+ 126.31] \x0d\x0a chapp_qrencodeData code with = 45\x0d\x0a
+[T+ 126.32] \x0d\x0a\x0d <<<chapp_qrencodeData>>>  x=848,  y=273 ,w=94,h=94 \x0d\x0a\x0d
+[T+ 129.53] \x0d\x0a ######CHAPP_GetTDTStatus######1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1Info####1530 \x0d\x0a
+[T+ 129.58] \x0d\x0a ######CXCA_CMD_GetMyAccountInfo#####4066 \x0d\x0a
+... T+130s spam=on
+... T+135s spam=on
+[T+ 135.46] \x0d\x0a #######CHAPP_CheckBootUpChannelStatus#######1000[0:0:0] \x0d\x0a\x0d\x0a 
+[T+ 135.47] ######CHAPP_StartRCUBlockTime#####682####0,75862 \x0d\x0a\x0d\x0a #######CHAPP_CheckBootUpChannelStatus#####
+[T+ 135.48] ##1006[27]
+[T+ 139.83] \x0d\x0a ######CHAPP_GetTDTStatus#####
+[T+ 139.84] #1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1Info####1530 \x0d\x0a
+[T+ 139.89] \x0d\x0a ######CXCA_CMD_GetMyAccountIn
+[T+ 139.90] fo#####4066 \x0d\x0a
+... T+140s spam=on
+... T+145s spam=on
+[T+ 150.14] \x0d\x0a ######CHAPP_GetTDTStatus######1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1Info####1530 \x0d\x0a
+... T+150s spam=on
+[T+ 150.20] \x0d\x0a ######CXCA_CMD_GetMyAccountInfo#####4066 \x0d\x0a
+... T+155s spam=on
+... T+160s spam=on
+[T+ 160.46] \x0d\x0a ######CHAPP_GetTDTStatus######1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1Info####1530 \x0d\x0a
+[T+ 160.51] \x0d\x0a ######CXCA_CMD_GetMyAccountInfo#####4066 \x0d\x0a
+... T+165s spam=on
+... T+170s spam=on
+[T+ 170.77] \x0d\x0a ######CHAPP_GetTDTStatus#####
+[T+ 170.78] #1355 \x0d\x0a\x0d\x0a #####CHAPP_CheckZone1Info####1530 \x0d\x0a
+[T+ 170.83] \x0d\x0a ######CXCA_CMD_GetMyAccountInfo#####4066 \x0d\x0a
+... T+175s spam=on
+Traceback (most recent call last):
+  File "/mnt/Extra4/testingrounds/SITI/tools/mboot_interrupt.py", line 191, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/Extra4/testingrounds/SITI/tools/mboot_interrupt.py", line 151, in main
+    write_all(fd, b"\r")
+    ~~~~~~~~~^^^^^^^^^^^
+  File "/mnt/Extra4/testingrounds/SITI/tools/mboot_interrupt.py", line 72, in write_all
+    n = os.write(fd, view)
+OSError: [Errno 5] Input/output error
