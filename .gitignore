@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.bin
+!extracted/*.bin
+*.elf
+*.rom
+*.img
+*.m2v
+*.mpg
+*.mpeg
+*.gam
+*.zip
+*.tar
+*.xz
+*.lzma
+.DS_Store
+*.sha256
