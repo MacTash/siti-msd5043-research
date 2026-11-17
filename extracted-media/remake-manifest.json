@@ -1,0 +1,28 @@
+{
+  "source": {
+    "path": "derived/flash-carves/flash_00970000_0097FB49_mpeg-boot-frame.bin",
+    "sha256": "1ec407e6975520d9c788371723d83ca818fe188e3c4afc2d1e8d7488445b8301",
+    "size": 64329,
+    "format": "MPEG-2 video elementary stream, one 1280x720 frame",
+    "note": "filename string in flash: SITI CINEMA BOOTUP HD.mpg; file(1) TGA identification is a false positive"
+  },
+  "outputs": {
+    "bootup-frame.gif": {
+      "sha256": "50cc67da68449a16210a3827ecea9eb363dc9852443bae389968d014aca36c11",
+      "size": 332478
+    },
+    "bootup-frame.mp4": {
+      "sha256": "dc10059be2bcc089bc9aff7d80ea575d1ad131f9dacac7781a4ebbf46ab1ae21",
+      "size": 41882
+    },
+    "bootup-frame.mpeg2.ts": {
+      "sha256": "475221321d329da044950b77c25352dc5a0ee7ad170dba514f291bf81a887481",
+      "size": 66552
+    },
+    "bootup-frame.png": {
+      "sha256": "0688f02378411855264a2295491b01a04a79583e60b580eb24a066d1ef300d2d",
+      "size": 495873
+    }
+  },
+  "classification": "RECONSTRUCTED_DERIVATIVE - not original firmware bytes"
+}

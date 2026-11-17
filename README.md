@@ -18,8 +18,10 @@ was used separately for boot/runtime logs.
 
 ## Files
 
+- `acquisition/` - ESP32 ISP firmware source and host acquisition tool.
 - `captures/` - redacted boot and runtime UART logs.
 - `extracted/` - flash maps, region manifest and selected binary extracts.
+- `extracted-media/` - reconstructed viewable media (PNG, GIF, MP4, MPEG-TS) derived from the boot frame; not original firmware files.
 - `tools/` - LZSS decoder, flash inventory, carving and verification scripts, database parsers.
 
 ## Usage
